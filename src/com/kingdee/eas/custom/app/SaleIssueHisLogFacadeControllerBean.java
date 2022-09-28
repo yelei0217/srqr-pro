@@ -126,12 +126,12 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
 			//插入高值数量主表 
 			StringBuffer sbr = new StringBuffer("insert into EAS_SALEISSUE_HIS(FID,FNumber,FOrgID,FYear,FPeriod,FHISID,EASSIGN,HISSIGN,update_time)").append("\r\n");
 			sbr.append(" select CFISSID,CFISSNUMBER,CFCOMPANYID,CFYEAR,CFPERIOD,CFHISID,0,0,FLASTUPDATETIME").append("\r\n");
-			sbr.append(" from GAVIN.CT_SRQ_SALEISSUEHISLOG where CFYEAR="+y+" and CFPERIOD="+m+" ").append("\r\n");
+			sbr.append(" from EAS1.CT_SRQ_SALEISSUEHISLOG where CFYEAR="+y+" and CFPERIOD="+m+" ").append("\r\n");
 			EAISynTemplate.execute(ctx, database, sbr.toString());
 			sbr.setLength(0);
  			sbr = new StringBuffer("insert into EAS_SALEISSUE_SUB_HIS(FID,FParentID,FQty,FActualCost,FHISPayItem,FHISID,FMATERIALNUMBER,FPINPAI,FHUOHAO,FMODEL,FXINGHAO)").append("\r\n");
  			sbr.append(" select distinct  b.CFISSENTRYID,a.CFISSID,b.CFQTY,b.CFAMOUNT,b.CFHISPAYITEM,b.CFHISID,b.CFMATERIALNO,b.CFPINPAI,b.CFHUOHAO,b.CFGUIGE,b.CFXINGHAO ").append("\r\n");
- 		    sbr.append(" from GAVIN.CT_SRQ_SALEISSUEHISLOG a inner join GAVIN.CT_SRQ_SALEISSUEHISLOGentry b on b.FParentID = a.fid ").append("\r\n");
+ 		    sbr.append(" from EAS1.CT_SRQ_SALEISSUEHISLOG a inner join EAS1.CT_SRQ_SALEISSUEHISLOGentry b on b.FParentID = a.fid ").append("\r\n");
  			sbr.append(" where a.CFYEAR="+y+" and a.CFPERIOD="+m+" ").append("\r\n");
  			EAISynTemplate.execute(ctx, database, sbr.toString());   
 			
