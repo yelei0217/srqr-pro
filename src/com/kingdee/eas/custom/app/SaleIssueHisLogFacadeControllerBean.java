@@ -113,13 +113,13 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
 			
 			int y = Integer.parseInt(month.substring(0,4));
 			int m = Integer.parseInt(month.substring(4,6));
-			String delSQL ="delete from EAS_SALEISSUE_SUB_HIS where fid in ( select distinct b.CFISSENTRYID from GAVIN.CT_SRQ_SALEISSUEHISLOG a " +
-			" inner join GAVIN.CT_SRQ_SALEISSUEHISLOGentry b on b.FParentID = a.fid where a.CFYEAR="+y+" and a.CFPERIOD="+m+" ) ";
+			String delSQL =" delete from EAS_SALEISSUE_SUB_HIS where fid in ( select distinct b.CFISSENTRYID from EAS1.CT_SRQ_SALEISSUEHISLOG a " +
+			" inner join EAS1.CT_SRQ_SALEISSUEHISLOGentry b on b.FParentID = a.fid where a.CFYEAR="+y+" and a.CFPERIOD="+m+" ) ";
 			
 			//删除中间表表明细表
 			EAISynTemplate.execute(ctx, database, delSQL);
 			
-			delSQL ="delete from EAS_SALEISSUE_HIS where fid in (select distinct a.CFISSID from GAVIN.CT_SRQ_SALEISSUEHISLOG a where a.CFYEAR="+y+" and a.CFPERIOD="+m+" ) ";
+			delSQL ="delete from EAS_SALEISSUE_HIS where fid in (select distinct a.CFISSID from EAS1.CT_SRQ_SALEISSUEHISLOG a where a.CFYEAR="+y+" and a.CFPERIOD="+m+" ) ";
 			//删除中间表 主表
 			EAISynTemplate.execute(ctx, database, delSQL);
 
