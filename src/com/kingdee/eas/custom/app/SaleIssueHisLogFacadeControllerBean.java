@@ -71,7 +71,7 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
  			sbr.append(" INNER JOIN T_IM_SALEISSUEENTRY b on a.FID =b.FPARENTID").append("\r\n");
  			sbr.append(" where   a.FMONTH ='"+month+"' and a.fbasestatus >=4 and a.FBIZTYPEID in ('d8e80652-010e-1000-e000-04c5c0a812202407435C','d8e80652-0110-1000-e000-04c5c0a812202407435C')").append("\r\n");
  			sbr.append(" and b.FINVUPDATETYPEID in ('8r0AAAAEaOnC73rf','8r0AAAAEaPbC73rf','CeUAAAAIdBvC73rf')").append("\r\n");
- 			sbr.append(" and b.CFHISMINGXIID is not null and b.CFHISSFXMID is not null and a.cfhisdanjubianma is not null )").append("\r\n");
+ 			sbr.append(" and b.CFHISMINGXIID is not null and b.CFHISSFXMID is not null and a.cfhisdanjubianma is not null and a.CFHISREQID is not null )").append("\r\n");
  			DbUtil.execute(ctx,sbr.toString());
  			sbr.setLength(0);
  			sbr = new StringBuffer();
@@ -87,7 +87,7 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
  			sbr.append(" inner join t_bd_material m on b.FMATERIALID = m.fid").append("\r\n");
  			sbr.append(" where a.FMONTH ='"+month+"' and a.fbasestatus >=4 and a.FBIZTYPEID in ('d8e80652-010e-1000-e000-04c5c0a812202407435C','d8e80652-0110-1000-e000-04c5c0a812202407435C')").append("\r\n");
  			sbr.append(" and b.FINVUPDATETYPEID in ('8r0AAAAEaOnC73rf','8r0AAAAEaPbC73rf','CeUAAAAIdBvC73rf')").append("\r\n");
- 			sbr.append(" and b.CFHISMINGXIID is not null and b.CFHISSFXMID is not null and a.cfhisdanjubianma is not null").append("\r\n");
+ 			sbr.append(" and b.CFHISMINGXIID is not null and b.CFHISSFXMID is not null and a.cfhisdanjubianma is not null and a.CFHISREQID is not null  ").append("\r\n");
  			DbUtil.execute(ctx,sbr.toString());
 		 
 		 logger.info("do _doCostSyncByMonth method cost :" + this.timer.msValue());
