@@ -75,4 +75,44 @@ public abstract class AbstractSaleIssueHisLogFacadeControllerBean extends Abstra
         return;
     }
 
+    public void syncBadDebtMidData(Context ctx, String database) throws BOSException
+    {
+        try {
+            ServiceContext svcCtx = createServiceContext(new MetaDataPK("07e1a812-c1a3-48e5-a442-ac7d1c293bed"), new Object[]{ctx, database});
+            invokeServiceBefore(svcCtx);
+              if(!svcCtx.invokeBreak()) {
+            _syncBadDebtMidData(ctx, database);
+            }
+            invokeServiceAfter(svcCtx);
+        } catch (BOSException ex) {
+            throw ex;
+        } finally {
+            super.cleanUpServiceState();
+        }
+    }
+    protected void _syncBadDebtMidData(Context ctx, String database) throws BOSException
+    {    	
+        return;
+    }
+
+    public void genBadDebtVoucher(Context ctx) throws BOSException
+    {
+        try {
+            ServiceContext svcCtx = createServiceContext(new MetaDataPK("e1dd7c0b-41be-4f52-a690-4f5fadfa8379"), new Object[]{ctx});
+            invokeServiceBefore(svcCtx);
+              if(!svcCtx.invokeBreak()) {
+            _genBadDebtVoucher(ctx);
+            }
+            invokeServiceAfter(svcCtx);
+        } catch (BOSException ex) {
+            throw ex;
+        } finally {
+            super.cleanUpServiceState();
+        }
+    }
+    protected void _genBadDebtVoucher(Context ctx) throws BOSException
+    {    	
+        return;
+    }
+
 }

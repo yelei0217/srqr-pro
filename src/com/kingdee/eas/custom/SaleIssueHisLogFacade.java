@@ -60,4 +60,29 @@ public class SaleIssueHisLogFacade extends AbstractBizCtrl implements ISaleIssue
             throw new EJBRemoteException(err);
         }
     }
+    /**
+     *同步坏账中间表数据-User defined method
+     *@param database 中间库编码
+     */
+    public void syncBadDebtMidData(String database) throws BOSException
+    {
+        try {
+            getController().syncBadDebtMidData(getContext(), database);
+        }
+        catch(RemoteException err) {
+            throw new EJBRemoteException(err);
+        }
+    }
+    /**
+     *生成坏账凭证-User defined method
+     */
+    public void genBadDebtVoucher() throws BOSException
+    {
+        try {
+            getController().genBadDebtVoucher(getContext());
+        }
+        catch(RemoteException err) {
+            throw new EJBRemoteException(err);
+        }
+    }
 }

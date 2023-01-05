@@ -19,4 +19,6 @@ public interface SaleIssueHisLogFacadeController extends BizController
 {
     public void doCostSyncByMonth(Context ctx, String month) throws BOSException, RemoteException;
     public void doSyncIssueLogToMid(Context ctx, String month, String database) throws BOSException, RemoteException;
+    public void syncBadDebtMidData(Context ctx, String database) throws BOSException, RemoteException;
+    public void genBadDebtVoucher(Context ctx) throws BOSException, RemoteException;
 }

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom</package>
+    <name>BadDebts</name>
+    <alias>bizUnit[com.kingdee.eas.custom.BadDebts].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.BadDebts].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.app.BadDebts</entityPK>
+    <queryPK>com.kingdee.eas.custom.app.BadDebtsQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.client.BadDebtsEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.client.BadDebtsListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.custom.app.BadDebtsEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.custom.app.BadDebtsListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日报坏账准备" />
+            <lang locale="zh_HK" value="日報壞賬準備" />
+            <lang locale="zh_TW" value="日報壞賬準備" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.BadDebtsControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.BadDebtsControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.BadDebtsControllerBeanEx" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.BadDebtsQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.BadDebtsQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.BadDebtsQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.BadDebtsEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.BadDebtsEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.BadDebtsEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.BadDebtsListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.BadDebtsListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.BadDebtsListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="28" />
+            <lang locale="zh_CN" value="28" />
+            <lang locale="zh_TW" value="28" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.BadDebts].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

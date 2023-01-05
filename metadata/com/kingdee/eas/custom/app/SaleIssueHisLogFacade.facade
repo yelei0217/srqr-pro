@@ -73,6 +73,47 @@
             </parameters>
             <configured>false</configured>
         </method>
+        <method>
+            <name>syncBadDebtMidData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].description</description>
+            <innerID>07e1a812-c1a3-48e5-a442-ac7d1c293bed</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>genBadDebtVoucher</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[genBadDebtVoucher].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[genBadDebtVoucher].description</description>
+            <innerID>e1dd7c0b-41be-4f52-a690-4f5fadfa8379</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
     </methods>
     <resource>
         <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].alias">
@@ -144,6 +185,41 @@
             <lang locale="zh_TW" value="執行任務月份" />
         </rs>
         <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[doSyncIssueLogToMid].parameters.parameter[month].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[genBadDebtVoucher].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成坏账凭证" />
+            <lang locale="zh_HK" value="生成壞賬憑證" />
+            <lang locale="zh_TW" value="生成壞賬憑證" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[genBadDebtVoucher].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成坏账凭证" />
+            <lang locale="zh_HK" value="生成壞賬憑證" />
+            <lang locale="zh_TW" value="生成壞賬憑證" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步坏账中间表数据" />
+            <lang locale="zh_HK" value="同步壞賬中間表數據" />
+            <lang locale="zh_TW" value="同步壞賬中間表數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步坏账中间表数据" />
+            <lang locale="zh_HK" value="同步壞賬中間表數據" />
+            <lang locale="zh_TW" value="同步壞賬中間表數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="中间库编码" />
+            <lang locale="zh_HK" value="中間庫編碼" />
+            <lang locale="zh_TW" value="中間庫編碼" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.SaleIssueHisLogFacade].methods.method[syncBadDebtMidData].parameters.parameter[database].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="" />
             <lang locale="zh_TW" value="null" />

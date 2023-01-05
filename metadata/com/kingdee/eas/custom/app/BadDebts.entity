@@ -1,0 +1,2427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>BadDebts</name>
+    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].description</description>
+    <userDefined>true</userDefined>
+    <bosType>F42D6A80</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.BadDebts</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.app.BadDebtsController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].description</description>
+            <innerID>f9e2d08a-ea08-4e29-9327-2529beb166a7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].description</description>
+            <innerID>e2fbdff1-87c2-4e3f-a5bc-ec33d18a125c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].description</description>
+            <innerID>5d210a10-256e-4920-8fc8-f37a30a380b3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].description</description>
+            <innerID>6054234f-817a-440a-be17-5a164b2a1c5b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].description</description>
+            <innerID>8ad52743-d857-4fe1-8ad1-addb0ab644f2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].description</description>
+            <innerID>af4bbcea-bfbc-45a2-8e3e-626b4aefd59b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>syncMidData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].description</description>
+            <innerID>f57d05ca-4513-4664-b31b-f2bb784585cf</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>verifyData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].description</description>
+            <innerID>feaa8c67-0dbd-42f0-8016-af09a812ae96</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>generVoucher</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].description</description>
+            <innerID>2c2be095-99c2-421c-aa85-304cd38dc9ff</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>autoSyncMidData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].description</description>
+            <innerID>c24d8da5-08e8-4e95-a9ea-e14cf267cda5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].parameters.parameter[database].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>autoGenerVoucher</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].description</description>
+            <innerID>b84e9893-d3f2-4ec7-b29d-7d91970b26c2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].parameters.parameter[database].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.BadDebts</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.app" />
+        <key name="name" value="CT_CUS_BadDebts" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>Fivouchered</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FFivouchered" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>InClinicHisID</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFInClinicHisID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Amount</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>VoucherStatus</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.app.VoucherStatus</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFVoucherStatus" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>HisInsTime</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFHisInsTime" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>EASInsTime</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEASInsTime" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>VoucherNumber</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFVoucherNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Delete</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFDelete" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>InEasOrgID</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFInEasOrgID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>InEasOrgNumber</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFInEasOrgNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>InEasOrgName</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFInEasOrgName" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>syncMidDataEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>f2aed6c2-d10d-4386-b651-722487cb814e</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="syncMidData" />
+                        <key name="innerID" value="f57d05ca-4513-4664-b31b-f2bb784585cf" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>354353b1-86fc-4fe2-acf4-30d5c9aa3111evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>354353b1-86fc-4fe2-acf4-30d5c9aa3111evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>verifyDataEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>125f61db-2caa-4a3b-8d3d-c3a785ec4d2f</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="verifyData" />
+                        <key name="innerID" value="feaa8c67-0dbd-42f0-8016-af09a812ae96" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>13da56a9-e115-4c18-b79d-2bd90732d517evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>13da56a9-e115-4c18-b79d-2bd90732d517evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>generVoucherEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>a7becdf6-57d6-49a6-a2bc-11079763da21</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="generVoucher" />
+                        <key name="innerID" value="2c2be095-99c2-421c-aa85-304cd38dc9ff" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>51468e9b-f3e5-48f5-9378-3a34ab995af3evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>51468e9b-f3e5-48f5-9378-3a34ab995af3evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>autoSyncMidDataEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>1f3c2480-a25d-4cbe-9b72-398c1201fc00</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="autoSyncMidData" />
+                        <key name="innerID" value="c24d8da5-08e8-4e95-a9ea-e14cf267cda5" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>7c0c0577-3256-4501-aa97-7adb1a5970b5evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>database</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].formalParameters.formalParameter.parameter[database].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].formalParameters.formalParameter.parameter[database].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>autoGenerVoucherEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>3471f7f5-1862-4ccf-a378-7ed98ef810e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="autoGenerVoucher" />
+                        <key name="innerID" value="b84e9893-d3f2-4ec7-b29d-7d91970b26c2" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>ee643ecb-7687-4e67-b5cc-4c0cafdf3d26evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>database</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].formalParameters.formalParameter.parameter[database].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].formalParameters.formalParameter.parameter[database].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef>com.kingdee.eas.custom.app.BadDebts</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.app.BadDebts].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.app.BadDebts].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日报坏账准备" />
+            <lang locale="zh_HK" value="日報壞賬準備" />
+            <lang locale="zh_TW" value="日報壞賬準備" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="autoGenerVoucherEvent" />
+            <lang locale="zh_HK" value="autoGenerVoucherEvent" />
+            <lang locale="zh_TW" value="autoGenerVoucherEvent" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].eventMethods.eventMethod[3471f7f5-1862-4ccf-a378-7ed98ef810e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].formalParameters.formalParameter.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="database" />
+            <lang locale="zh_HK" value="database" />
+            <lang locale="zh_TW" value="database" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoGenerVoucherEvent].formalParameters.formalParameter.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="autoSyncMidDataEvent" />
+            <lang locale="zh_HK" value="autoSyncMidDataEvent" />
+            <lang locale="zh_TW" value="autoSyncMidDataEvent" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].eventMethods.eventMethod[1f3c2480-a25d-4cbe-9b72-398c1201fc00].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].formalParameters.formalParameter.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="database" />
+            <lang locale="zh_HK" value="database" />
+            <lang locale="zh_TW" value="database" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[autoSyncMidDataEvent].formalParameters.formalParameter.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成凭证事件" />
+            <lang locale="zh_HK" value="生成憑證事件" />
+            <lang locale="zh_TW" value="生成憑證事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].eventMethods.eventMethod[a7becdf6-57d6-49a6-a2bc-11079763da21].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[generVoucherEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="syncMidData事件" />
+            <lang locale="zh_HK" value="syncMidData事件" />
+            <lang locale="zh_TW" value="syncMidData事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].eventMethods.eventMethod[f2aed6c2-d10d-4386-b651-722487cb814e].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[syncMidDataEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据验证事件" />
+            <lang locale="zh_HK" value="數據驗證事件" />
+            <lang locale="zh_TW" value="數據驗證事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].eventMethods.eventMethod[125f61db-2caa-4a3b-8d3d-c3a785ec4d2f].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].events.event[verifyDataEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.BadDebtsControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.BadDebtsControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.BadDebtsControllerBeanEx" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.BadDebtsQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.BadDebtsQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.BadDebtsQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.BadDebtsEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.BadDebtsEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.BadDebtsEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.BadDebtsListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.BadDebtsListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.BadDebtsListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成凭证" />
+            <lang locale="zh_HK" value="生成憑證" />
+            <lang locale="zh_TW" value="生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="database" />
+            <lang locale="zh_HK" value="database" />
+            <lang locale="zh_TW" value="database" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoGenerVoucher].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="autoSyncMidData" />
+            <lang locale="zh_HK" value="autoSyncMidData" />
+            <lang locale="zh_TW" value="autoSyncMidData" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="database" />
+            <lang locale="zh_HK" value="database" />
+            <lang locale="zh_TW" value="database" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[autoSyncMidData].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成凭证" />
+            <lang locale="zh_HK" value="生成憑證" />
+            <lang locale="zh_TW" value="生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[generVoucher].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="syncMidData" />
+            <lang locale="zh_HK" value="syncMidData" />
+            <lang locale="zh_TW" value="syncMidData" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[syncMidData].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据验证" />
+            <lang locale="zh_HK" value="數據驗證" />
+            <lang locale="zh_TW" value="數據驗證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].methods.method[verifyData].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="金额" />
+            <lang locale="zh_HK" value="金額" />
+            <lang locale="zh_TW" value="金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="金额" />
+            <lang locale="zh_HK" value="金額" />
+            <lang locale="zh_TW" value="金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Amount].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否删除" />
+            <lang locale="zh_HK" value="是否刪除" />
+            <lang locale="zh_TW" value="是否刪除" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否删除" />
+            <lang locale="zh_HK" value="是否刪除" />
+            <lang locale="zh_TW" value="是否刪除" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Delete].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS插入时间" />
+            <lang locale="zh_HK" value="EAS插入時間" />
+            <lang locale="zh_TW" value="EAS插入時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS插入时间" />
+            <lang locale="zh_HK" value="EAS插入時間" />
+            <lang locale="zh_TW" value="EAS插入時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[EASInsTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[Fivouchered].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HIS插入时间" />
+            <lang locale="zh_HK" value="HIS插入時間" />
+            <lang locale="zh_TW" value="HIS插入時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HIS插入时间" />
+            <lang locale="zh_HK" value="HIS插入時間" />
+            <lang locale="zh_TW" value="HIS插入時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[HisInsTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HIS门诊编码" />
+            <lang locale="zh_HK" value="HIS門診編碼" />
+            <lang locale="zh_TW" value="HIS門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HIS门诊编码" />
+            <lang locale="zh_HK" value="HIS門診編碼" />
+            <lang locale="zh_TW" value="HIS門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InClinicHisID].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS门诊ID" />
+            <lang locale="zh_HK" value="EAS門診ID" />
+            <lang locale="zh_TW" value="EAS門診ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS门诊ID" />
+            <lang locale="zh_HK" value="EAS門診ID" />
+            <lang locale="zh_TW" value="EAS門診ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgID].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS门诊名称" />
+            <lang locale="zh_HK" value="EAS門診名稱" />
+            <lang locale="zh_TW" value="EAS門診名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS门诊名称" />
+            <lang locale="zh_HK" value="EAS門診名稱" />
+            <lang locale="zh_TW" value="EAS門診名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS门诊编码" />
+            <lang locale="zh_HK" value="EAS門診編碼" />
+            <lang locale="zh_TW" value="EAS門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS门诊编码" />
+            <lang locale="zh_HK" value="EAS門診編碼" />
+            <lang locale="zh_TW" value="EAS門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[InEasOrgNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="凭证字号" />
+            <lang locale="zh_HK" value="憑證字號" />
+            <lang locale="zh_TW" value="憑證字號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="凭证字号" />
+            <lang locale="zh_HK" value="憑證字號" />
+            <lang locale="zh_TW" value="憑證字號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="SYNCSUCCESS" />
+            <lang locale="zh_HK" value="SYNCSUCCESS" />
+            <lang locale="zh_TW" value="SYNCSUCCESS" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.defaultValue">
+            <lang locale="en_US" value="SYNCSUCCESS" />
+            <lang locale="zh_CN" value="SYNCSUCCESS" />
+            <lang locale="zh_TW" value="SYNCSUCCESS" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.BadDebts].properties.ownProperty[VoucherStatus].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

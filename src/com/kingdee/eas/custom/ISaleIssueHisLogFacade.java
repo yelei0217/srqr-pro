@@ -16,4 +16,6 @@ public interface ISaleIssueHisLogFacade extends IBizCtrl
 {
     public void doCostSyncByMonth(String month) throws BOSException;
     public void doSyncIssueLogToMid(String month, String database) throws BOSException;
+    public void syncBadDebtMidData(String database) throws BOSException;
+    public void genBadDebtVoucher() throws BOSException;
 }

@@ -31,5 +31,5 @@ import com.kingdee.jdbc.rowset.IRowSet;
      }
      return flag;
    } 
-   
+    
  }

@@ -1,30 +1,24 @@
 package com.kingdee.eas.custom.app;
 
-import org.apache.log4j.Logger;
-import javax.ejb.*;
-import java.rmi.RemoteException;
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
-import com.kingdee.bos.*;
-import com.kingdee.bos.util.BOSObjectType;
-import com.kingdee.bos.metadata.IMetaDataPK;
-import com.kingdee.bos.metadata.rule.RuleExecutor;
-import com.kingdee.bos.metadata.MetaDataPK;
-//import com.kingdee.bos.metadata.entity.EntityViewInfo;
-import com.kingdee.bos.framework.ejb.AbstractEntityControllerBean;
-import com.kingdee.bos.framework.ejb.AbstractBizControllerBean;
-//import com.kingdee.bos.dao.IObjectPK;
-import com.kingdee.bos.dao.IObjectValue;
-import com.kingdee.bos.dao.IObjectCollection;
-import com.kingdee.bos.service.ServiceContext;
-import com.kingdee.bos.service.IServiceContext;
+import java.util.Iterator; 
+import org.apache.log4j.Logger; 
+import com.kingdee.bos.BOSException;
+import com.kingdee.bos.Context;
+import com.kingdee.bos.metadata.entity.EntityViewInfo;
+import com.kingdee.bos.metadata.entity.FilterInfo;
+import com.kingdee.bos.metadata.entity.FilterItemInfo;
+import com.kingdee.bos.metadata.query.util.CompareType;
+import com.kingdee.eas.custom.BadDebtsCollection;
+import com.kingdee.eas.custom.BadDebtsFactory;
+import com.kingdee.eas.custom.BadDebtsInfo;
 import com.kingdee.eas.custom.EAISynTemplate;
+import com.kingdee.eas.custom.app.unit.BadDebtsUtil;
 import com.kingdee.eas.util.app.DbUtil;
 import com.kingdee.util.LowTimer;
-
-import java.lang.String;
 
 public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLogFacadeControllerBean
 {
@@ -37,6 +31,10 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
 	private static Logger logger = Logger.getLogger("com.kingdee.eas.custom.app.SaleIssueHisLogFacadeControllerBean");
 	private LowTimer timer = new LowTimer();
 	
+	
+
+    
+    
 	/**
 	 * 
 	 * 同步销售出库单 至中间记录单
@@ -57,8 +55,8 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
  			
 			DbUtil.execute(ctx, "delete from CT_SRQ_SALEISSUEHISLOGENTRY where FPARENTID in ( select FID FROM CT_SRQ_SALEISSUEHISLOG where CFYEAR="+y+" and CFPERIOD="+m+" ) ");
 			
- 			DbUtil.execute(ctx, "delete FROM CT_SRQ_SALEISSUEHISLOG where CFYEAR="+y+" and CFPERIOD="+m+" ");
-
+ 			DbUtil.execute(ctx, "delete FROM CT_SRQ_SALEISSUEHISLOG where CFYEAR="+y+" and CFPERIOD="+m+" "); 
+ 
  			StringBuffer sbr = new StringBuffer();
  			sbr.append(" /*dialect*/insert into CT_SRQ_SALEISSUEHISLOG (FCREATORID, FCREATETIME, FLASTUPDATEUSERID, FLASTUPDATETIME, FCONTROLUNITID, FNUMBER, FBIZDATE, FHANDLERID, FDESCRIPTION,").append("\r\n");
  			sbr.append(" FID, FFIVOUCHERED, CFISSNUMBER, CFCOMPANYID, CFHISID, CFYEAR, CFPERIOD, CFISSID, CFSYNCSTATUS, CFSTATUS )").append("\r\n");
@@ -123,6 +121,13 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
 			//删除中间表 主表
 			EAISynTemplate.execute(ctx, database, delSQL);
 
+			
+			delSQL="delete from EAS_SALEISSUE_SUB_HIS where FPARENTID in (select FID from EAS_SALEISSUE_HIS where FYear = "+y+" and FPERIOD = "+m+")";
+			EAISynTemplate.execute(ctx, database, delSQL);
+
+			delSQL="delete from EAS_SALEISSUE_HIS where FYear = "+y+" and FPERIOD ="+m+" ";
+			EAISynTemplate.execute(ctx, database, delSQL);
+
 			//插入高值数量主表 
 			StringBuffer sbr = new StringBuffer("insert into EAS_SALEISSUE_HIS(FID,FNumber,FOrgID,FYear,FPeriod,FHISID,EASSIGN,HISSIGN,update_time)").append("\r\n");
 			sbr.append(" select CFISSID,CFISSNUMBER,CFCOMPANYID,CFYEAR,CFPERIOD,CFHISID,0,0,FLASTUPDATETIME").append("\r\n");
@@ -139,4 +144,37 @@ public class SaleIssueHisLogFacadeControllerBean extends AbstractSaleIssueHisLog
 		 logger.info("do _doSyncIssueLogToMid method cost :" + this.timer.msValue());
 	}
 
+
+	
+	/***
+	 * 生成 坏账凭证 
+	 */
+	@Override
+	protected void _genBadDebtVoucher(Context ctx) throws BOSException {
+ 	    EntityViewInfo viewInfo = new EntityViewInfo();
+ 	    FilterInfo filter = new FilterInfo();
+ 	    filter.getFilterItems().add(new FilterItemInfo("VoucherStatus",  VoucherStatus.VerifySuccess, CompareType.EQUALS));
+ 	    filter.getFilterItems().add( new FilterItemInfo("Amount", BigDecimal.ZERO, CompareType.NOTEQUALS));
+ 	    viewInfo.setFilter(filter);
+ 	    BadDebtsCollection collection = BadDebtsFactory.getLocalInstance(ctx).getBadDebtsCollection(viewInfo);
+ 	    Iterator iterator = collection.iterator();
+ 	    while (iterator.hasNext()) {
+ 	      BadDebtsInfo info = (BadDebtsInfo) iterator.next();
+ 	      BadDebtsUtil.doGenerVoucher(ctx, info);
+ 	    }
+	}
+	
+	/***
+	 * 同步 坏账中间表数据 至 EAS坏账准备单据
+	 */
+
+
+	@Override
+	protected void _syncBadDebtMidData(Context ctx, String database)throws BOSException {
+		BadDebtsUtil.doSyncMidData(ctx, database);
+	}
+
+	
+	
+	
 }

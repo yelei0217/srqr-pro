@@ -1,6 +1,6 @@
  package com.kingdee.eas.custom.app;
  
- import java.math.BigDecimal;
+import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.text.DateFormat;
@@ -145,7 +145,7 @@ import com.kingdee.jdbc.rowset.IRowSet;
              (IObjectPK)new ObjectUuidPK(billId));
          PayRequestBillEntryCollection entryCollection = payRequestBillInfo
            .getEntrys();
-         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
          String id = payRequestBillInfo.getId().toString();
          String fnumber = payRequestBillInfo.getNumber();
          String bizDate = sdf.format(payRequestBillInfo.getBizDate());
@@ -248,7 +248,7 @@ import com.kingdee.jdbc.rowset.IRowSet;
              entrys.add(map);
            }  
          String sql = "insert into eas_lolkk_fk (id,fnumber,bizDate,Formtype,InvoiceNumber,Suppliernum,Suppliername,Supplierbank,Supplierbanknum,Usedate,applyer,Companynum,Company,Gzamount,requestAmount,purpose,Jsfs,requestReason,Eassign,Eastime,oasign,Oatime,oafinishsign,paystate) values('" + 
-           id + "','" + fnumber + "','" + bizDate + "','" + Formtype + "','" + invoiceNumber + "','" + 
+           id + "','" + fnumber + "',to_date('" + bizDate + "','YYYY-MM-DD HH24:MI:SS') ,'" + Formtype + "','" + invoiceNumber + "','" + 
            Suppliernum + "','" + Suppliername + "','" + Supplierbank + "','" + Supplierbanknum + "','" + 
            Usedate + "','" + applyer + "','" + Companynum + "','" + Company + "','" + 
            Gzamount + "'," + requestAmount + ",'" + purpose + "','" + 
@@ -1003,7 +1003,7 @@ import com.kingdee.jdbc.rowset.IRowSet;
    }
    
    public void syncPayApply(Context ctx, String database) throws BOSException {
-     String sql = "select id ,fnumber from eas_lolkk_fk where oafinishsign = 1 and eassign=1 and paystate = 0 and CONVERT(varchar(7), bizdate, 120) >= CONVERT(varchar(7), dateadd(month,-3,getdate()) , 120)  order by bizdate desc";
+     String sql = "select id ,fnumber from eas_lolkk_fk where oafinishsign = 1 and eassign=1 and paystate = 0 and to_char(BIZDATE,'yyyy-MM-dd') >= to_char(add_months(sysdate,-3),'yyyy-MM-dd') order by bizdate desc";
      List<Map<String, Object>> list = EAISynTemplate.query(ctx, database, sql.toString());
      IPayRequestBill ibiz = PayRequestBillFactory.getLocalInstance(ctx);
      for (Map<String, Object> map : list) {
@@ -1018,7 +1018,7 @@ import com.kingdee.jdbc.rowset.IRowSet;
          } 
        } 
      } 
-     String sqlNo = "select id ,fnumber from eas_lolkk_fk where oafinishsign = 2 and eassign=1 and paystate = 2 and CONVERT(varchar(7), bizdate, 120) >= CONVERT(varchar(7), dateadd(month,-3,getdate()) , 120)  order by bizdate desc";
+     String sqlNo = "select id ,fnumber from eas_lolkk_fk where oafinishsign = 2 and eassign=1 and paystate = 2 and to_char(BIZDATE,'yyyy-MM-dd') >= to_char(add_months(sysdate,-3),'yyyy-MM-dd') order by bizdate desc";
      List<Map<String, Object>> listNo = EAISynTemplate.query(ctx, database, sqlNo.toString());
      for (Map<String, Object> map : listNo) {
        if (map.get("ID") != null && !"".equals(map.get("ID").toString())) {
@@ -1353,6 +1353,7 @@ import com.kingdee.jdbc.rowset.IRowSet;
            entryInfo.setRecievePayAmount(amount);
            entryInfo.setRecievePayAmountLocal(amount);
            entryInfo.setCompany(map.get("COMPANY").toString());
+           entryInfo.setPayableDate(new Date());
            entryInfo.setAccount(accountInfo);
            if (map1.get("REMARK") != null)
              entryInfo.setRemark(map1.get("REMARK").toString()); 
@@ -1515,6 +1516,7 @@ import com.kingdee.jdbc.rowset.IRowSet;
            entryInfo.setRecievePayAmount(amount);
            entryInfo.setRecievePayAmountLocal(amount);
            entryInfo.setCompany(map1.get("COMPANY").toString());
+           entryInfo.setPayableDate(new Date());
            entryInfo.setAccount(accountInfo);
            if (map1.get("YJK") != null && !"".equals(map1.get("YJK")))
              totalyjk = (BigDecimal)map1.get("YJK"); 
